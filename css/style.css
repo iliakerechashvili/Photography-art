@@ -3,8 +3,7 @@
     justify-content: space-between;
     flex-flow: row wrap;
     max-width: 1540px;
-    border: 1px solid red;
-    background-color: darkkhaki;
+    background-color: black;
 }
 .container > .div1 {
     display: flex;
@@ -13,8 +12,8 @@
 .div1 > h2 {
     margin-left: 30px;
     margin-top: 20px;
-    color: blueviolet;
-    font-weight: bolder;
+    color: rgb(68, 25, 108);
+    font-weight: bold;
     font-size: larger;
 }
 .div1 > img {
@@ -32,4 +31,11 @@ ul > li {
     display: flex;
     margin-top:50px;
     border: 1px solid black; 
+}
+.head1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 36px;
+    color: orangered;
 }
