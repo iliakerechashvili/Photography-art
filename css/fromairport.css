@@ -1,0 +1,25 @@
+section {
+    background-color: black;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.head1 {
+    text-align: center;
+    font-size: 36px;
+    color: #6495ED;
+    font-weight: bolder;
+    font-family: 'Great Vibes', cursive;
+}
+
+.container2 >img {
+    width: 450px;
+    height: 250px;
+    filter: grayscale(100%);
+    margin: 10px;
+}
+.container2 > img:hover {
+    filter: grayscale(0%);
+}

@@ -1,6 +1,8 @@
+body {
+    background-color: black;
+}
 .container {
     background-color:black;
-    border: 1px solid black;
     width: 1530px;
     display: flex;
     justify-content: space-between;
@@ -13,7 +15,6 @@ nav > .list1 {
     display: flex;
     justify-content: center;
     margin: 20px;
-    
     position: relative;
 }
 .list1 > a {
@@ -54,7 +55,7 @@ i:hover {
 }
 .myalbums > h2 {
     position: absolute;
-    color: red;
+    color: white;
     font-size: 25px;
     margin-top: 150px;
     margin-left: 190px;
@@ -80,7 +81,7 @@ i:hover {
     color: white;
     font-weight: bolder;
 }
-.myalbums > .button:hover {
+.button:hover {
     color: black;
     background-color: whitesmoke;
 }
