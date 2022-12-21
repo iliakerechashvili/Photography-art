@@ -1,19 +1,86 @@
 .container {
-    background-color:brown;
+    background-color:black;
     border: 1px solid black;
     width: 1530px;
     display: flex;
     justify-content: space-between;
 }
-.div1 > img {
+.div1 > .geolab > img {
     width: 50px;
+    margin: 10px;
 }
 nav > .list1 {
     display: flex;
     justify-content: center;
     margin: 20px;
-    border: 1px solid yellow;
+    
+    position: relative;
 }
-.list1 > li {
-    margin: 10px;
+.list1 > a {
+    margin: 20px;
+    color: darkgrey;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.list1 > .home {
+    color: #20c997;
+}
+.list1 >a:hover {
+    color: #20c997;
+}
+.logos > i {
+    margin-top:20px;
+    margin-right: 20px;
+    color: darkgrey;
+    font-weight: normal;
+}
+i:hover {
+    color: white;
+}
+
+/* section for cards */
+
+.myalbums {
+    display: flex;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.myalbums .plane {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.myalbums > h2 {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 190px;
+}
+.plane {
+    filter: grayscale(100%);
+}
+.plane:hover {
+    filter: grayscale(0%);
+}
+/* button style */
+.button {
+    border: 1px solid red;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+}
+.myalbums > .button:hover {
+    color: black;
+    background-color: whitesmoke;
 }
