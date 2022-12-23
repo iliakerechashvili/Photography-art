@@ -58,7 +58,7 @@ i:hover {
     color: white;
     font-size: 25px;
     margin-top: 150px;
-    margin-left: 190px;
+    margin-left: 160px;
 }
 .plane {
     filter: grayscale(100%);
@@ -84,4 +84,11 @@ i:hover {
 .button:hover {
     color: black;
     background-color: whitesmoke;
+}
+.season .seasons {
+    width: 450px;
+    height: 400px;
+    margin-left: 32rem;
+    position: relative;
+    margin-top: 2rem;
 }
