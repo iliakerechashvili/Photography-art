@@ -1,0 +1,106 @@
+.list1 .about {
+    color: #20c997;
+}
+.container4 {
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    width: 1170px;
+    height: 600px;
+    border: 1px solid red;
+    
+}
+.myprofile img {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-top: 100px;
+    margin-left: 50px;
+    display:inline-block;
+    position: absolute;
+}
+.myprofile img:hover {
+    filter: grayscale(100%);
+}
+.myprofile h1 {
+    color: darkorange;
+    font-family: 'Great Vibes', cursive;
+    display:inline-block;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    
+}
+.myprofile p {
+    color: aqua;
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 500px;
+    font-size: 25px;
+}
+/* cards */
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+.mycards2 img {
+    width: 250px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 50px;
+}
+.mycards2 img:hover {
+    filter: grayscale(0%);
+}
+.mycards2 p {
+    color: #20c997;
+    width: 350px;
+    margin: 20px;
+}
+.mycards2 i {
+    color: orangered;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* mycards3 */
+.mycards3 img {
+    width: 250px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 50px;
+}
+.mycards3 img:hover {
+    filter: grayscale(0%);
+}
+.mycards3 p {
+    color: #20c997;
+    width: 350px;
+    margin: 20px;
+}
+.mycards3 i {
+    color: orangered;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* mycards4 */
+.mycards4 img {
+    width: 250px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 50px;
+}
+.mycards4 img:hover {
+    filter: grayscale(0%);
+}
+.mycards4 p {
+    color: #20c997;
+    width: 350px;
+    margin: 20px;
+}
+.mycards4 i {
+    color: orangered;
+    margin-top: 20px;
+    margin-left: 50px;
+}

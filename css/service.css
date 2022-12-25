@@ -1,0 +1,235 @@
+.list1 .service {
+    color: #20c997;
+}
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+/* first card */
+.first-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.first-card i {
+    margin-left: 195px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+    font-size: 60px;
+}
+.first-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 195px;
+    font-size: 20px;
+    
+}
+.first-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;
+    
+}
+.first-card .price1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+
+/* second card */
+.second-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.second-card i {
+    margin-left: 195px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+}
+.second-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+.second-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;   
+}
+.second-card .price2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+/* third card */
+.third-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.third-card i {
+    margin-left: 195px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+}
+.third-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.third-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;   
+}
+.third-card .price2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+/* fourth-card */
+.fourth-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.fourth-card i {
+    margin-left: 205px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+}
+.fourth-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.fourth-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;   
+}
+.fourth-card .price2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+/* fifth-card */
+.fifth-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.fifth-card i {
+    margin-left: 205px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+}
+.fifth-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 210px;
+    font-size: 20px;
+}
+.fifth-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;   
+}
+.fifth-card .price2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+/* sixth card */
+.sixth-card {
+    display: inline-block;
+    border: 1px solid white;
+    max-width: 450px;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: 50px;
+}
+.sixth-card i {
+    margin-left: 205px;
+    margin-top: 30px;
+    text-align: center;
+    color:#20c997;
+    display: inline-block;
+}
+.sixth-card h2 {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 190px;
+    font-size: 20px;
+}
+.sixth-card .info1 {
+    margin-top: 70px;
+    text-align: center;
+    color: darkblue;   
+}
+.sixth-card .price2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+    font-size: 20px;
+    color: red;
+}
+/* footer */
+.myfooter {
+    margin-top: 100px;
+    color: #20c997;
+    text-align: center;
+    margin-bottom: 50px;
+}

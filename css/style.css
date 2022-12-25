@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    height: 1500px;
 }
 .container {
     background-color:black;
@@ -55,6 +54,12 @@ i:hover {
 }
 
 /* section for cards */
+h1 {
+    color: #20c997;
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    text-align: center;
+}
 img {
     object-fit: cover;
 }
@@ -237,4 +242,18 @@ img {
     font-size: 25px;
     margin-top: 150px;
     margin-left: 190px;
+}
+/* footer style */
+
+.myfooter1 {
+    color: white;
+    margin-top: 1000px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.myfooter {
+    margin-top: 100px;
+    color: #20c997;
+    text-align: center;
+    margin-bottom: 50px;
 }
