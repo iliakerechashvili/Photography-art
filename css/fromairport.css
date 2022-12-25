@@ -1,10 +1,11 @@
+
 section {
     background-color: black;
 }
 .container2 {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .head1 {
     text-align: center;
@@ -19,6 +20,7 @@ section {
     height: 250px;
     filter: grayscale(100%);
     margin: 10px;
+    object-fit: cover;
 }
 .container2 > img:hover {
     filter: grayscale(0%);

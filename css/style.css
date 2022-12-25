@@ -1,15 +1,30 @@
 body {
     background-color: black;
+    height: 1500px;
 }
 .container {
     background-color:black;
     width: 1530px;
     display: flex;
     justify-content: space-between;
+    /* position: fixed;
+    z-index: 30; */
 }
 .div1 > .geolab > img {
     width: 50px;
-    margin: 10px;
+    margin: 20px;
+    animation: anime 3s linear infinite ;
+}
+@keyframes anime {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(160deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 nav > .list1 {
     display: flex;
@@ -40,12 +55,18 @@ i:hover {
 }
 
 /* section for cards */
-
+img {
+    object-fit: cover;
+}
+.mysection {
+    display: flex;
+    justify-content: space-around;
+}
 .myalbums {
     display: flex;
     position: absolute;
     margin-top: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .myalbums .plane {
     width: 450px;
@@ -53,7 +74,7 @@ i:hover {
     position: relative;
     display: inline-block;
 }
-.myalbums > h2 {
+.myalbums  h2 {
     position: absolute;
     color: white;
     font-size: 25px;
@@ -85,10 +106,135 @@ i:hover {
     color: black;
     background-color: whitesmoke;
 }
+/* second card */
+
+.season {
+    display: flex;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
 .season .seasons {
     width: 450px;
     height: 400px;
-    margin-left: 32rem;
     position: relative;
+    display: inline-block;
+}
+.season h2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 190px;
+}
+.seasons {
+    filter: grayscale(100%);
+}
+.seasons:hover {
+    filter: grayscale(0%);
+}
+.list1 .gallery1 {
+    color: #20c997;
+}
+/* third card */
+.art {
+    display: flex;
+    position: absolute;
     margin-top: 2rem;
+    margin-left: 60rem;
+}
+.art .art1 {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.art h2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 210px;
+}
+.art {
+    filter: grayscale(100%);
+}
+.art:hover {
+    filter: grayscale(0%);
+}
+/* fourth card */
+.nature {
+    display: flex;
+    position: absolute;
+    margin-top: 30rem;
+    
+}
+.nature .nature1 {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.nature h2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 190px;
+}
+.nature {
+    filter: grayscale(100%);
+}
+.nature:hover {
+    filter: grayscale(0%);
+}
+/* fifth card */
+.sky {
+    display: flex;
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 30rem;
+}
+.sky .sky1 {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.sky h2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 190px; 
+}
+.sky {
+    filter: grayscale(100%);
+}
+.sky:hover {
+    filter: grayscale(0%);
+}
+/* sisxth card */
+.another {
+    display: flex;
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 60rem;
+    filter:grayscale(100%);
+}
+.another:hover {
+    filter: grayscale(0%);
+}
+.another .another1 {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.another h2 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 190px;
 }
