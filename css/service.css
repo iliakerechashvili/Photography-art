@@ -24,6 +24,7 @@
     display: inline-block;
     font-size: 60px;
 }
+
 .first-card h2 {
     color: white;
     position: absolute;
@@ -98,6 +99,11 @@
     text-align: center;
     color:#20c997;
     display: inline-block;
+}
+
+.third-card i:hover {
+    font-size: 30px;
+    cursor: pointer;
 }
 .third-card h2 {
     color: white;

@@ -1,0 +1,48 @@
+.list1 .contact1 {
+    color: #20c997;
+}
+h1 {
+    color: white;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    max-width:1000px;
+    width: 700px;
+    margin-left: 15rem;
+}
+label {
+    color: white;
+    margin: 10px;
+}
+
+input {
+    padding: 12px;
+    background-color: black;
+    border: 1px solid gray;
+    width: 350px;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+input:hover {
+    border: 1px solid #20c997;
+}
+
+.first-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-input input {
+    width: 740px;
+}
