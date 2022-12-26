@@ -6,8 +6,8 @@ body {
     width: 1530px;
     display: flex;
     justify-content: space-between;
-    /* position: fixed;
-    z-index: 30; */
+    flex-flow: row wrap;
+    align-items: center;
 }
 .div1 > .geolab > img {
     width: 50px;
