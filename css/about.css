@@ -6,9 +6,7 @@
     position: relative;
     flex-flow: row wrap;
     width: 1170px;
-    height: 600px;
-    
-    
+    height: 600px; 
 }
 .myprofile img {
     width: 350px;
